@@ -1,0 +1,30 @@
+{
+    "name": "qkktrip/laravel-aliyun-mns",
+    "description": "Aliyun MNS for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qkktrip",
+            "email": "3027831735@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "qkktrip/aliyun-mns": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qkktrip\\LaravelAliyunMNS\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
