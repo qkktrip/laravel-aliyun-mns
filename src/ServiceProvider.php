@@ -3,6 +3,7 @@
 namespace Qkktrip\LaravelAliyunMNS;
 
 use AliyunMNS\Foundation\AliyunMNSApplication as AliyunMNS;
+use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
 class ServiceProvider extends LaravelServiceProvider
